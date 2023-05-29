@@ -1,5 +1,7 @@
 [build]
   publish="build"
+  command = "CI= npm run build"
+  
 [[redirects]]
   from = "/paper/*"
   to = "https://serpapi.com/:splat"
