@@ -3,6 +3,6 @@
   command = "CI= npm run build"
 
 [[redirects]]
-  from = "https://main--fluffy-travesseiro-9155aa.netlify.app/Search/paper/*"
+  from = "http://localhost:3001/paper/*"
   to = "https://serpapi.com/:splat"
   status = 200
